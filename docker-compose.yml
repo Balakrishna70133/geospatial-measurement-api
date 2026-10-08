@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      STORAGE_DIR: /app/runtime_storage
+      MAX_UPLOAD_SIZE_MB: 25
+    volumes:
+      - ./runtime_storage:/app/runtime_storage
