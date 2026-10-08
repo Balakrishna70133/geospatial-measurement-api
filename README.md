@@ -336,16 +336,22 @@ Before submitting the GitHub repository:
 - [ ] Review the repository for credentials or local runtime files.
 - [ ] Push the complete repository to a public GitHub repository.
 
-## GitHub commands
+
+## Contact
+
+**Bala Krishna**  
+GitHub: https://github.com/Balakrishna70133
 
 After extracting/opening the project folder:
+## GitHub commands
 
 ```bash
 git init
 git add .
 git commit -m "Build geospatial measurement API"
 git branch -M main
-git remote add origin https://github.com/<your-username>/geospatial-measurement-api.git
+git clone https://github.com/Balakrishna70133/geospatial-measurement-api.git
+cd geospatial-measurement-api
 git push -u origin main
 ```
 
